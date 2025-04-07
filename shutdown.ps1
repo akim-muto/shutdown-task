@@ -220,4 +220,4 @@ Add-Content -Path $LogFile -Value "[INFO] シャットダウンを10秒後に開
 $today_date=(Get-Date).DateTime
 Add-Content -Path $LogFile -Value "-------------------------------end:$today_date"
 # shutdown.exe を使ってシャットダウン（10秒後）
-#shutdown.exe /s /t 10
+shutdown.exe /s /t 10
